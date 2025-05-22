@@ -59,7 +59,7 @@ const ConnectWalletModal = ({
             >
               <img
                 src={wallet.metadata.icon || "/placeholder.svg?height=24&width=24"}
-                alt={`${wallet.metadata.name} Icon`}
+                alt={wallet.metadata.name + " Icon"}
                 className="h-6 w-6"
               />
             </div>
